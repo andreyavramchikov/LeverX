@@ -18,6 +18,8 @@ Djangorestframework has built-in functionality of login/logout so I used it.
 
 Djangorestframework hasn't buit-in 'register' functionality so I added it
 
+You can use superuser/manager account such as super@gmail.com/andreypasan
+
 After register you will have Developer's Account.
 
 System has two roles of users : Manager and Developer. SuperUser equal to  Manager.
