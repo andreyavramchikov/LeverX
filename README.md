@@ -18,7 +18,7 @@ Djangorestframework has built-in functionality of login/logout so I used it.
 
 Djangorestframework hasn't buit-in 'register' functionality so I added it
 
-You can use
+You can use superuser/manager account such as super@gmail.com/andreypasan
 
 After register you will have Developer's Account.
 
@@ -30,7 +30,7 @@ python manage.py createsuperuser
 
 Developers can make Read operations on User/Task/Projects
 Non Authenticated Users can make Read operations as well. If we don't want that behavior then we should place
-IsAuthenticated into settings of Rest Framework and make changes in custom permission class for /register view and other views
+IsAuthenticated into settings of Rest Framework and make change permissions to /register view and other views
 
 
 I didn't got the 9 paragraph of the task about celery task
